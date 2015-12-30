@@ -42,7 +42,7 @@ $featuredImage = 'segment.200x100.png';
 	</div>
 <?php
 
-require_once(LEC_PATH_INCLUDE .  '/disabled.inc.php');
+require_once(LEC_PATH_CONTENT .  '/disabled.inc.php');
 
 ?>
 </div>

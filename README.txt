@@ -1,0 +1,1 @@
+Must use a PHP include for the content files in this project, and use the appropriate headers for your website. 

@@ -18,7 +18,7 @@ $typeDisplay = 'tabbed'; // flat or accordion or tabbed
 
 require_once(LEC_PATH_CONTENT . '/segmented-calc-' . $typeDisplay . '.html');
 
-require_once(LEC_PATH_INCLUDE . '/disabled.inc.php');
+require_once(LEC_PATH_CONTENT . '/disabled.inc.php');
 
 ?>
 </div>
