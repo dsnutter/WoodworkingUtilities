@@ -6,7 +6,7 @@ $featuredImage = 'segment.200x100.png';
 -->
 <div class="row">
 	<div class="col-sm-8">
-		<img src="/images/<?=$subdomain?>/<?=$featuredImage?>" alt="Dimensions of segments - <?=$title?>" class="pull-right" />
+		<img src="/images/<?=$featuredImage?>" alt="Dimensions of segments - <?=$title?>" class="pull-right" />
 		<?=$summary?>
 	</div>
         <div class="col-sm-4">&nbsp;</div>

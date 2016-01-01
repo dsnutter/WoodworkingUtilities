@@ -5,22 +5,22 @@ angular.module("lec.utility", ['ui.bootstrap', 'lec.segmented', 'lec.units'])
 .config(function($provide) {
   $provide.decorator('accordionDirective', function($delegate) {
     //array of accordion directives
-    $delegate[0].templateUrl = "/js/vendor/angular/template/accordion/accordion.html";
+    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/accordion/accordion.html";
     return $delegate;
   });
   $provide.decorator('accordionGroupDirective', function($delegate) {
     //array of accordion-group directives
-    $delegate[0].templateUrl = "/js/vendor/angular/template/accordion/accordion-group.html";
+    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/accordion/accordion-group.html";
     return $delegate;
   });
   $provide.decorator('tabDirective', function($delegate) {
     //array of tab directives
-    $delegate[0].templateUrl = "/js/vendor/angular/template/tabs/tab.html";
+    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/tabs/tab.html";
     return $delegate;
   });
   $provide.decorator('tabsetDirective', function($delegate) {
     //array of tabset directives
-    $delegate[0].templateUrl = "/js/vendor/angular/template/tabs/tabset.html";
+    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/tabs/tabset.html";
     return $delegate;
   });
 })
@@ -112,7 +112,7 @@ angular.module("lec.utility", ['ui.bootstrap', 'lec.segmented', 'lec.units'])
     // build a valid json measurement retrieval URL
     //
     $scope.buildJsonUrl = function() {
-        var jsonUrl = '/js/json/units.php';
+        var jsonUrl = '/applications/utility/js/json/units.php';
         var url, resolution;
         var result = { width: false, diameter: false };
 

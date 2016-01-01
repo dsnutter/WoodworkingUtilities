@@ -1,1 +1,1 @@
-# restrict access to /content folder in utility
+Redirect /applications/utility/content/ /error?code=404&referer=/applications/utility/content/
