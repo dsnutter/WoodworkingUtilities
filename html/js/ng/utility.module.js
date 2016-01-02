@@ -1,3 +1,8 @@
+//
+// website relative path to javascript configuration. changed for every install of this software on a website
+//
+var _configRelativeJsPath = '/applications/utility';
+
 // utility.lec website module
 angular.module("lec.utility", ['ui.bootstrap', 'lec.segmented', 'lec.units'])
 
@@ -5,22 +10,22 @@ angular.module("lec.utility", ['ui.bootstrap', 'lec.segmented', 'lec.units'])
 .config(function($provide) {
   $provide.decorator('accordionDirective', function($delegate) {
     //array of accordion directives
-    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/accordion/accordion.html";
+    $delegate[0].templateUrl = _configRelativeJsPath + "/js/vendor/angular/template/accordion/accordion.html";
     return $delegate;
   });
   $provide.decorator('accordionGroupDirective', function($delegate) {
     //array of accordion-group directives
-    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/accordion/accordion-group.html";
+    $delegate[0].templateUrl = _configRelativeJsPath + "/js/vendor/angular/template/accordion/accordion-group.html";
     return $delegate;
   });
   $provide.decorator('tabDirective', function($delegate) {
     //array of tab directives
-    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/tabs/tab.html";
+    $delegate[0].templateUrl = _configRelativeJsPath + "/js/vendor/angular/template/tabs/tab.html";
     return $delegate;
   });
   $provide.decorator('tabsetDirective', function($delegate) {
     //array of tabset directives
-    $delegate[0].templateUrl = "/applications/utility/js/vendor/angular/template/tabs/tabset.html";
+    $delegate[0].templateUrl = _configRelativeJsPath + "/js/vendor/angular/template/tabs/tabset.html";
     return $delegate;
   });
 })
