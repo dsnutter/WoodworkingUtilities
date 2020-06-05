@@ -1,0 +1,84 @@
+
+[
+        
+            {
+                "display": "1/16",
+                "value": 0.0625
+            },
+            
+            {
+                "display": "1/8",
+                "value": 0.125
+            },
+            
+            {
+                "display": "3/16",
+                "value": 0.1875
+            },
+            
+            {
+                "display": "1/4",
+                "value": 0.25
+            },
+            
+            {
+                "display": "5/16",
+                "value": 0.3125
+            },
+            
+            {
+                "display": "3/8",
+                "value": 0.375
+            },
+            
+            {
+                "display": "7/16",
+                "value": 0.4375
+            },
+            
+            {
+                "display": "1/2",
+                "value": 0.5
+            },
+            
+            {
+                "display": "9/16",
+                "value": 0.5625
+            },
+            
+            {
+                "display": "5/8",
+                "value": 0.625
+            },
+            
+            {
+                "display": "11/16",
+                "value": 0.6875
+            },
+            
+            {
+                "display": "3/4",
+                "value": 0.75
+            },
+            
+            {
+                "display": "13/16",
+                "value": 0.8125
+            },
+            
+            {
+                "display": "7/8",
+                "value": 0.875
+            },
+            
+            {
+                "display": "15/16",
+                "value": 0.9375
+            },
+    
+        {
+            "display": "1",
+            "value": 1
+        }
+
+]

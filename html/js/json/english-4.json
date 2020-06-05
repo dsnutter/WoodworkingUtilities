@@ -1,0 +1,24 @@
+
+[
+        
+            {
+                "display": "1/4",
+                "value": 0.25
+            },
+            
+            {
+                "display": "1/2",
+                "value": 0.5
+            },
+            
+            {
+                "display": "3/4",
+                "value": 0.75
+            },
+    
+        {
+            "display": "1",
+            "value": 1
+        }
+
+]

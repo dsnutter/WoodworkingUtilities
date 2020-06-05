@@ -1,0 +1,604 @@
+
+[
+        
+            {
+                "display": "0.1",
+                "value": 0.1
+            },
+            
+            {
+                "display": "0.2",
+                "value": 0.2
+            },
+            
+            {
+                "display": "0.3",
+                "value": 0.3
+            },
+            
+            {
+                "display": "0.4",
+                "value": 0.4
+            },
+            
+            {
+                "display": "0.5",
+                "value": 0.5
+            },
+            
+            {
+                "display": "0.6",
+                "value": 0.6
+            },
+            
+            {
+                "display": "0.7",
+                "value": 0.7
+            },
+            
+            {
+                "display": "0.8",
+                "value": 0.8
+            },
+            
+            {
+                "display": "0.9",
+                "value": 0.9
+            },
+    
+        {
+            "display": "1",
+            "value": 1
+        },
+        
+            {
+                "display": "1.1",
+                "value": 1.1
+            },
+            
+            {
+                "display": "1.2",
+                "value": 1.2
+            },
+            
+            {
+                "display": "1.3",
+                "value": 1.3
+            },
+            
+            {
+                "display": "1.4",
+                "value": 1.4
+            },
+            
+            {
+                "display": "1.5",
+                "value": 1.5
+            },
+            
+            {
+                "display": "1.6",
+                "value": 1.6
+            },
+            
+            {
+                "display": "1.7",
+                "value": 1.7
+            },
+            
+            {
+                "display": "1.8",
+                "value": 1.8
+            },
+            
+            {
+                "display": "1.9",
+                "value": 1.9
+            },
+    
+        {
+            "display": "2",
+            "value": 2
+        },
+        
+            {
+                "display": "2.1",
+                "value": 2.1
+            },
+            
+            {
+                "display": "2.2",
+                "value": 2.2
+            },
+            
+            {
+                "display": "2.3",
+                "value": 2.3
+            },
+            
+            {
+                "display": "2.4",
+                "value": 2.4
+            },
+            
+            {
+                "display": "2.5",
+                "value": 2.5
+            },
+            
+            {
+                "display": "2.6",
+                "value": 2.6
+            },
+            
+            {
+                "display": "2.7",
+                "value": 2.7
+            },
+            
+            {
+                "display": "2.8",
+                "value": 2.8
+            },
+            
+            {
+                "display": "2.9",
+                "value": 2.9
+            },
+    
+        {
+            "display": "3",
+            "value": 3
+        },
+        
+            {
+                "display": "3.1",
+                "value": 3.1
+            },
+            
+            {
+                "display": "3.2",
+                "value": 3.2
+            },
+            
+            {
+                "display": "3.3",
+                "value": 3.3
+            },
+            
+            {
+                "display": "3.4",
+                "value": 3.4
+            },
+            
+            {
+                "display": "3.5",
+                "value": 3.5
+            },
+            
+            {
+                "display": "3.6",
+                "value": 3.6
+            },
+            
+            {
+                "display": "3.7",
+                "value": 3.7
+            },
+            
+            {
+                "display": "3.8",
+                "value": 3.8
+            },
+            
+            {
+                "display": "3.9",
+                "value": 3.9
+            },
+    
+        {
+            "display": "4",
+            "value": 4
+        },
+        
+            {
+                "display": "4.1",
+                "value": 4.1
+            },
+            
+            {
+                "display": "4.2",
+                "value": 4.2
+            },
+            
+            {
+                "display": "4.3",
+                "value": 4.3
+            },
+            
+            {
+                "display": "4.4",
+                "value": 4.4
+            },
+            
+            {
+                "display": "4.5",
+                "value": 4.5
+            },
+            
+            {
+                "display": "4.6",
+                "value": 4.6
+            },
+            
+            {
+                "display": "4.7",
+                "value": 4.7
+            },
+            
+            {
+                "display": "4.8",
+                "value": 4.8
+            },
+            
+            {
+                "display": "4.9",
+                "value": 4.9
+            },
+    
+        {
+            "display": "5",
+            "value": 5
+        },
+        
+            {
+                "display": "5.1",
+                "value": 5.1
+            },
+            
+            {
+                "display": "5.2",
+                "value": 5.2
+            },
+            
+            {
+                "display": "5.3",
+                "value": 5.3
+            },
+            
+            {
+                "display": "5.4",
+                "value": 5.4
+            },
+            
+            {
+                "display": "5.5",
+                "value": 5.5
+            },
+            
+            {
+                "display": "5.6",
+                "value": 5.6
+            },
+            
+            {
+                "display": "5.7",
+                "value": 5.7
+            },
+            
+            {
+                "display": "5.8",
+                "value": 5.8
+            },
+            
+            {
+                "display": "5.9",
+                "value": 5.9
+            },
+    
+        {
+            "display": "6",
+            "value": 6
+        },
+        
+            {
+                "display": "6.1",
+                "value": 6.1
+            },
+            
+            {
+                "display": "6.2",
+                "value": 6.2
+            },
+            
+            {
+                "display": "6.3",
+                "value": 6.3
+            },
+            
+            {
+                "display": "6.4",
+                "value": 6.4
+            },
+            
+            {
+                "display": "6.5",
+                "value": 6.5
+            },
+            
+            {
+                "display": "6.6",
+                "value": 6.6
+            },
+            
+            {
+                "display": "6.7",
+                "value": 6.7
+            },
+            
+            {
+                "display": "6.8",
+                "value": 6.8
+            },
+            
+            {
+                "display": "6.9",
+                "value": 6.9
+            },
+    
+        {
+            "display": "7",
+            "value": 7
+        },
+        
+            {
+                "display": "7.1",
+                "value": 7.1
+            },
+            
+            {
+                "display": "7.2",
+                "value": 7.2
+            },
+            
+            {
+                "display": "7.3",
+                "value": 7.3
+            },
+            
+            {
+                "display": "7.4",
+                "value": 7.4
+            },
+            
+            {
+                "display": "7.5",
+                "value": 7.5
+            },
+            
+            {
+                "display": "7.6",
+                "value": 7.6
+            },
+            
+            {
+                "display": "7.7",
+                "value": 7.7
+            },
+            
+            {
+                "display": "7.8",
+                "value": 7.8
+            },
+            
+            {
+                "display": "7.9",
+                "value": 7.9
+            },
+    
+        {
+            "display": "8",
+            "value": 8
+        },
+        
+            {
+                "display": "8.1",
+                "value": 8.1
+            },
+            
+            {
+                "display": "8.2",
+                "value": 8.2
+            },
+            
+            {
+                "display": "8.3",
+                "value": 8.3
+            },
+            
+            {
+                "display": "8.4",
+                "value": 8.4
+            },
+            
+            {
+                "display": "8.5",
+                "value": 8.5
+            },
+            
+            {
+                "display": "8.6",
+                "value": 8.6
+            },
+            
+            {
+                "display": "8.7",
+                "value": 8.7
+            },
+            
+            {
+                "display": "8.8",
+                "value": 8.8
+            },
+            
+            {
+                "display": "8.9",
+                "value": 8.9
+            },
+    
+        {
+            "display": "9",
+            "value": 9
+        },
+        
+            {
+                "display": "9.1",
+                "value": 9.1
+            },
+            
+            {
+                "display": "9.2",
+                "value": 9.2
+            },
+            
+            {
+                "display": "9.3",
+                "value": 9.3
+            },
+            
+            {
+                "display": "9.4",
+                "value": 9.4
+            },
+            
+            {
+                "display": "9.5",
+                "value": 9.5
+            },
+            
+            {
+                "display": "9.6",
+                "value": 9.6
+            },
+            
+            {
+                "display": "9.7",
+                "value": 9.7
+            },
+            
+            {
+                "display": "9.8",
+                "value": 9.8
+            },
+            
+            {
+                "display": "9.9",
+                "value": 9.9
+            },
+    
+        {
+            "display": "10",
+            "value": 10
+        },
+        
+            {
+                "display": "10.1",
+                "value": 10.1
+            },
+            
+            {
+                "display": "10.2",
+                "value": 10.2
+            },
+            
+            {
+                "display": "10.3",
+                "value": 10.3
+            },
+            
+            {
+                "display": "10.4",
+                "value": 10.4
+            },
+            
+            {
+                "display": "10.5",
+                "value": 10.5
+            },
+            
+            {
+                "display": "10.6",
+                "value": 10.6
+            },
+            
+            {
+                "display": "10.7",
+                "value": 10.7
+            },
+            
+            {
+                "display": "10.8",
+                "value": 10.8
+            },
+            
+            {
+                "display": "10.9",
+                "value": 10.9
+            },
+    
+        {
+            "display": "11",
+            "value": 11
+        },
+        
+            {
+                "display": "11.1",
+                "value": 11.1
+            },
+            
+            {
+                "display": "11.2",
+                "value": 11.2
+            },
+            
+            {
+                "display": "11.3",
+                "value": 11.3
+            },
+            
+            {
+                "display": "11.4",
+                "value": 11.4
+            },
+            
+            {
+                "display": "11.5",
+                "value": 11.5
+            },
+            
+            {
+                "display": "11.6",
+                "value": 11.6
+            },
+            
+            {
+                "display": "11.7",
+                "value": 11.7
+            },
+            
+            {
+                "display": "11.8",
+                "value": 11.8
+            },
+            
+            {
+                "display": "11.9",
+                "value": 11.9
+            },
+    
+        {
+            "display": "12",
+            "value": 12
+        }
+
+]

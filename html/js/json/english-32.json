@@ -1,0 +1,164 @@
+
+[
+        
+            {
+                "display": "1/32",
+                "value": 0.03125
+            },
+            
+            {
+                "display": "1/16",
+                "value": 0.0625
+            },
+            
+            {
+                "display": "3/32",
+                "value": 0.09375
+            },
+            
+            {
+                "display": "1/8",
+                "value": 0.125
+            },
+            
+            {
+                "display": "5/32",
+                "value": 0.15625
+            },
+            
+            {
+                "display": "3/16",
+                "value": 0.1875
+            },
+            
+            {
+                "display": "7/32",
+                "value": 0.21875
+            },
+            
+            {
+                "display": "1/4",
+                "value": 0.25
+            },
+            
+            {
+                "display": "9/32",
+                "value": 0.28125
+            },
+            
+            {
+                "display": "5/16",
+                "value": 0.3125
+            },
+            
+            {
+                "display": "11/32",
+                "value": 0.34375
+            },
+            
+            {
+                "display": "3/8",
+                "value": 0.375
+            },
+            
+            {
+                "display": "13/32",
+                "value": 0.40625
+            },
+            
+            {
+                "display": "7/16",
+                "value": 0.4375
+            },
+            
+            {
+                "display": "15/32",
+                "value": 0.46875
+            },
+            
+            {
+                "display": "1/2",
+                "value": 0.5
+            },
+            
+            {
+                "display": "17/32",
+                "value": 0.53125
+            },
+            
+            {
+                "display": "9/16",
+                "value": 0.5625
+            },
+            
+            {
+                "display": "19/32",
+                "value": 0.59375
+            },
+            
+            {
+                "display": "5/8",
+                "value": 0.625
+            },
+            
+            {
+                "display": "21/32",
+                "value": 0.65625
+            },
+            
+            {
+                "display": "11/16",
+                "value": 0.6875
+            },
+            
+            {
+                "display": "23/32",
+                "value": 0.71875
+            },
+            
+            {
+                "display": "3/4",
+                "value": 0.75
+            },
+            
+            {
+                "display": "25/32",
+                "value": 0.78125
+            },
+            
+            {
+                "display": "13/16",
+                "value": 0.8125
+            },
+            
+            {
+                "display": "27/32",
+                "value": 0.84375
+            },
+            
+            {
+                "display": "7/8",
+                "value": 0.875
+            },
+            
+            {
+                "display": "29/32",
+                "value": 0.90625
+            },
+            
+            {
+                "display": "15/16",
+                "value": 0.9375
+            },
+            
+            {
+                "display": "31/32",
+                "value": 0.96875
+            },
+    
+        {
+            "display": "1",
+            "value": 1
+        }
+
+]

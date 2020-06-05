@@ -1,0 +1,54 @@
+
+[
+        
+            {
+                "display": "0.1",
+                "value": 0.1
+            },
+            
+            {
+                "display": "0.2",
+                "value": 0.2
+            },
+            
+            {
+                "display": "0.3",
+                "value": 0.3
+            },
+            
+            {
+                "display": "0.4",
+                "value": 0.4
+            },
+            
+            {
+                "display": "0.5",
+                "value": 0.5
+            },
+            
+            {
+                "display": "0.6",
+                "value": 0.6
+            },
+            
+            {
+                "display": "0.7",
+                "value": 0.7
+            },
+            
+            {
+                "display": "0.8",
+                "value": 0.8
+            },
+            
+            {
+                "display": "0.9",
+                "value": 0.9
+            },
+    
+        {
+            "display": "1",
+            "value": 1
+        }
+
+]

@@ -1,0 +1,47 @@
+<!-- Sample Woodworking Utilities Header -->
+<html>
+ <head>
+    <title>Woodworking Utilitied</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap-tpls.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap.min.js"></script>
+    
+	<script type='text/javascript' src='js/ng/units.module.js'></script>
+	<script type='text/javascript' src='js/ng/segmented.module.js'></script>
+    <script type='text/javascript' src='js/ng/utility.module.js'></script>
+ </head>
+ <body>
+ <!-- page content starts here --> 
+
+<p>
+This calculator converts a decimal inch value to its closest equivalent fraction in 1/16th inch increments.
+</p>
+<div ng-app="lec.utility" ng-controller="lec.utility.controller.fractionalInches">
+    <div ng-cloak class="form" role="form">
+        <div class="row">
+            <div class="form-group col-sm-4">
+                <label class="control-label" for="decimal">
+                    Enter the decimal number:
+                </label>
+                <input type="text" name="decimal" class="form-control" id="decimal" ng-model="decimal" placeholder="Enter decimal inches..." />
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-sm-4">
+                <button class="btn btn-primary btn-md btn-color" role="button" id="submit" ng-click="calculate()">Calculate</button>
+            </div>
+        </div>
+    </div>
+    <div ng-cloak class="row formresultslabel" ng-show="showresult">
+        <div class="col-sm-4" for="calcfractional">
+            <span class="glyphicon glyphicon-asterisk"></span> <strong>RESULTS</strong> <span class="glyphicon glyphicon-asterisk"></span>
+            <div class="bg-success" id="fractional">{{result}}&nbsp;{{unitslabel}}</div>
+        </div>
+        <div class="col-sm-8">&nbsp;</div>
+    </div>
+</div> 
+
+<!-- Sample Woodworking Utilities Footer -->
+</body>
+</html>

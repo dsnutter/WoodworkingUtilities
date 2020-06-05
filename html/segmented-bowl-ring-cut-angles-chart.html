@@ -1,0 +1,63 @@
+<!-- Sample Woodworking Utilities Header -->
+<html>
+ <head>
+    <title>Woodworking Utilitied</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap-tpls.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap.min.js"></script>
+    
+	<script type='text/javascript' src='js/ng/units.module.js'></script>
+	<script type='text/javascript' src='js/ng/segmented.module.js'></script>
+    <script type='text/javascript' src='js/ng/utility.module.js'></script>
+ </head>
+ <body>
+ <!-- page content starts here --> 
+
+ <!--
+$summary = 'The following chart displays the different cut angles for segmented bowl ring segments. A sample segmented bowl segment is displayed above.';
+$title = 'Segmented Bowl Ring Cut Angles Chart';
+$url = 'segmented-bowl-ring-cut-angles-chart';
+$featuredImage = 'segment.200x100.png';
+-->
+<div class="row">
+	<div class="col-sm-8">
+		<img src="images/segment.200x100.png" alt="Dimensions of segments - Segmented Bowl Cut Angles" class="pull-right" />
+		The following chart displays the different cut angles for segmented bowl ring segments. A sample segmented bowl segment is displayed above.
+	</div>
+        <div class="col-sm-4">&nbsp;</div>
+</div>
+
+<div ng-app="lec.utility" ng-controller="lec.utility.controller.segmentedRingCutAnglesChart">
+	<div ng-cloak class="row">
+		<div class="col-sm-4">
+	
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Number of Ring Segments</th>
+			<th>Cut Angle</th>
+		</tr>
+	</thead>
+	<tbody>
+
+		<tr ng-repeat="s in arrSegments">
+			<td>
+				{{ s }}
+			</td>
+			<td>
+				{{ angle(s) }}&nbsp;{{ anglelabel }}
+			</td>
+		</tr>
+
+	</tbody>
+</table>
+	
+		</div>
+		<div class="col-sm-8">&nbsp;</div>
+    </div>
+</div>
+
+<!-- Sample Woodworking Utilities Footer -->
+</body>
+</html>
