@@ -1,7 +1,7 @@
 <!-- Sample Woodworking Utilities Header -->
 <html>
  <head>
-	<title>Woodworking Utilitied</title>
+	<title>Woodworking Utilities</title>
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -14,8 +14,12 @@
 	<script type='text/javascript' src='js/ng/segmented.module.js'></script>
     <script type='text/javascript' src='js/ng/utility.module.js'></script>
  </head>
- <body>
- <!-- page content starts here --> 
+ <body class="d-flex flex-column h-100">
+    <!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+
+<h1 class="mt-5">Segmented Bowl Ring Cut Angles Chart</h1>
 
  <!--
 $summary = 'The following chart displays the different cut angles for segmented bowl ring segments. A sample segmented bowl segment is displayed above.';
@@ -25,12 +29,15 @@ $featuredImage = 'segment.200x100.png';
 -->
 <div class="row">
 	<div class="col-sm-8">
-		<img src="images/segment.200x100.png" alt="Dimensions of segments - Segmented Bowl Cut Angles" class="pull-right" />
+		<img src="images/segment.200x100.png" alt="Dimensions of segments - Segmented Bowl Cut Angles" />
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-16">
 		The following chart displays the different cut angles for segmented bowl ring segments. A sample segmented bowl segment is displayed above.
 	</div>
-        <div class="col-sm-4">&nbsp;</div>
 </div>
-
+<br />
 <div ng-app="lec.utility" ng-controller="lec.utility.controller.segmentedRingCutAnglesChart">
 	<div ng-cloak class="row">
 		<div class="col-sm-4">
@@ -60,6 +67,9 @@ $featuredImage = 'segment.200x100.png';
 		<div class="col-sm-8">&nbsp;</div>
     </div>
 </div>
+
+</div>
+</main>
 
 <!-- Sample Woodworking Utilities Footer -->
 </body>

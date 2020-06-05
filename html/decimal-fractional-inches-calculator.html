@@ -1,7 +1,7 @@
 <!-- Sample Woodworking Utilities Header -->
 <html>
  <head>
-    <title>Woodworking Utilitied</title>
+    <title>Woodworking Utilities</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -14,9 +14,12 @@
 	<script type='text/javascript' src='js/ng/segmented.module.js'></script>
     <script type='text/javascript' src='js/ng/utility.module.js'></script>
  </head>
- <body>
- <!-- page content starts here --> 
+ <body class="d-flex flex-column h-100">
+    <!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container">
 
+<h1 class="mt-5">Decimal to fractional inches calculator</h1>
 <p>
 This calculator converts a decimal inch value to its closest equivalent fraction in 1/16th inch increments.
 </p>
@@ -39,11 +42,14 @@ This calculator converts a decimal inch value to its closest equivalent fraction
     <div ng-cloak class="row formresultslabel" ng-show="showresult">
         <div class="col-sm-4" for="calcfractional">
             <span class="glyphicon glyphicon-asterisk"></span> <strong>RESULTS</strong> <span class="glyphicon glyphicon-asterisk"></span>
-            <div class="bg-success" id="fractional">{{result}}&nbsp;{{unitslabel}}</div>
+            <div class="bg-success p-1" id="fractional">{{result}}&nbsp;{{unitslabel}}</div>
         </div>
         <div class="col-sm-8">&nbsp;</div>
     </div>
 </div> 
+
+</div>
+</main>
 
 <!-- Sample Woodworking Utilities Footer -->
 </body>

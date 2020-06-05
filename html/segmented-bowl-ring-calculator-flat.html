@@ -1,7 +1,7 @@
 <!-- Sample Woodworking Utilities Header -->
 <html>
  <head>
-    <title>Woodworking Utilitied</title>
+    <title>Woodworking Utilities</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -14,14 +14,21 @@
 	<script type='text/javascript' src='js/ng/segmented.module.js'></script>
     <script type='text/javascript' src='js/ng/utility.module.js'></script>
  </head>
- <body>
- <!-- page content starts here --> 
+ <body class="d-flex flex-column h-100">
+    <!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+
+<h1 class="mt-5">Segmented Bowl Ring Calculator</h1>
 
  <div class="row">
 	<div class="col-sm-6">
-
-<img src="images/segment.200x100.png" alt="Dimensions of segments - Bowl Ring Calculator" class="pull-right" />
-The following calculator calculates dimensions of segmented bowl rings.		
+        <img src="images/segment.200x100.png" alt="Dimensions of segments - Bowl Ring Calculator" class="pull-right" />
+    </div>
+</div>
+<div class="row">
+	<div class="col-sm-16">
+        The following calculator calculates dimensions of segmented bowl rings.		
 	</div>
 </div>
 <div class="row">
@@ -39,8 +46,9 @@ The following calculator calculates dimensions of segmented bowl rings.
                 <label class="control-label">
                     Units:
                 </label>&nbsp;
-                <label><input type="radio" name="units" ng-change="measurementTypeChange()" value="e" ng-model="form.units"/> inches</label>
-                <label><input type="radio" name="units" ng-change="measurementTypeChange()" value="m"  ng-model="form.units" /> cm</label>
+                <label><input type="radio" name="units" ng-change="measurementTypeChange()" value="e" ng-model="form.units"/>&nbsp;inches</label>
+                &nbsp;
+                <label><input type="radio" name="units" ng-change="measurementTypeChange()" value="m"  ng-model="form.units" />&nbsp;cm</label>
             </div>
         </div>
     
@@ -88,7 +96,7 @@ The following calculator calculates dimensions of segmented bowl rings.
     
     <div ng-cloak ng-show="showresult">
         <span class="glyphicon glyphicon-asterisk"></span> <strong>RESULTS</strong> <span class="glyphicon glyphicon-asterisk"></span>
-        <div class="bg-success">
+        <div class="bg-success p-3">
             <span style="color: black; font-weight: bold">Segment Cut Angle:</span> {{ strCutAngle }}<br />
             <span style="color: red; font-weight: bold">A: Max diameter of segmented ring:</span> {{ strDiameterMax }} <br />
             <span style="color: blue; font-weight: bold">B: Diameter of ring after turning:</span> {{ strDiameter }}<br />
@@ -104,6 +112,8 @@ The following calculator calculates dimensions of segmented bowl rings.
 	</div>
 </div>
 
+</div>
+</main>
 <!-- Sample Woodworking Utilities Footer -->
 </body>
 </html>
