@@ -5,8 +5,7 @@ module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: 'D:/projects/woodworks/Website/',
-
+    basePath: '/home/dsnutter/git/WoodworkingUtilities',
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
@@ -16,18 +15,18 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // referenced libraries
-      'UnitTests/node_modules/angular/angular.min.js',
-      'UnitTests/node_modules/angular-mocks/angular-mocks.js',
-      'UnitTests/node_modules/angular-bootstrap/dist/ui-bootstrap.js',
-      'UnitTests/node_modules/angular-bootstrap/dist/ui-bootstrap-tpls.js',
+      'node_modules/angular/angular.min.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'node_modules/angular-bootstrap/dist/ui-bootstrap.js',
+      'node_modules/angular-bootstrap/dist/ui-bootstrap-tpls.js',
 
       // application files
-      'LEC/utility/js/ng/units.module.js',
-      'LEC/utility/js/ng/segmented.module.js',
-      'LEC/utility/js/ng/utility.module.js',
+      'html/js/ng/units.module.js',
+      'html/js/ng/segmented.module.js',
+      'html/js/ng/utility.module.js',
 
       // unit tests
-      'UnitTests/apps/test.utility.module.js'
+      'UnitTests/tests/test.utility.module.js'
     ],
 
 
@@ -67,11 +66,11 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false
+    singleRun: true
   });
 };

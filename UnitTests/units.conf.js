@@ -5,7 +5,7 @@ module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: 'D:/projects/woodworks/Website/',
+    basePath: '/home/dsnutter/git/WoodworkingUtilities',
 
 
     // frameworks to use
@@ -16,14 +16,14 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // referenced libraries
-      'UnitTests/node_modules/angular/angular.min.js',
-      'UnitTests/node_modules/angular-mocks/angular-mocks.js',
+      'node_modules/angular/angular.min.js',
+      'node_modules/angular-mocks/angular-mocks.js',
 
       // application files
-      'LEC/utility/js/ng/units.module.js',
+      'html/js/ng/units.module.js',
 
       // unit tests
-      'UnitTests/modules/test.units.module.js'
+      'UnitTests/tests/test.units.module.js'
     ],
 
 
@@ -68,6 +68,6 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false
+    singleRun: true
   });
 };
