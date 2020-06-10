@@ -1,0 +1,32 @@
+{
+  "name": "woodworkingutilities",
+  "version": "1.0.0",
+  "description": "woodworking utilities and unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsnutter/WoodworkingUtilities.git"
+  },
+  "author": "DS Nutter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsnutter/WoodworkingUtilities/issues"
+  },
+  "homepage": "https://github.com/dsnutter/WoodworkingUtilities#readme",
+  "dependencies": {
+    "angular": "^1.8.0",
+    "angular-bootstrap": "^0.12.2",
+    "angular-mocks": "^1.8.0",
+    "angular-ui-bootstrap": "^2.5.6",
+    "canteen": "^1.0.5",
+    "karma": "^5.0.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.3.1"
+  },
+  "devDependencies": {
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}

@@ -1,11 +1,11 @@
 // Karma configuration
-// Generated on Thu Feb 19 2015 10:39:30 GMT-0500 (Eastern Standard Time)
+// Generated on Mon Jun 08 2020 13:31:29 GMT-0400 (Eastern Daylight Time)
 
 module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: 'D:/projects/woodworks/Website/',
+    basePath: '',
 
 
     // frameworks to use
@@ -15,19 +15,19 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      // referenced libraries
-      'UnitTests/node_modules/angular/angular.min.js',
-      'UnitTests/node_modules/angular-mocks/angular-mocks.js',
+      'node_modules/angular/angular.min.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'node_modules/canteen/build/canteen.min.js',
+      'node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js',
 
-      // application files
-      'LEC/utility/js/ng/units.module.js',
-
-      // unit tests
-      'UnitTests/modules/test.units.module.js'
+      'html/js/ng/units.module.js',
+      'html/js/ng/segmented.module.js',
+      'UnitTests/tests/test.units.module.js',
+      'UnitTests/tests/test.segmented.module.js',
     ],
 
 
-    // list of files to exclude
+    // list of files / patterns to exclude
     exclude: [
     ],
 
@@ -58,16 +58,20 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: false,
+    autoWatch: true,
 
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['PhantomJS'], //, 'ChromeHeadless'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false
-  });
-};
+    singleRun: true,
+
+    // Concurrency level
+    // how many browser should be started simultaneous
+    concurrency: Infinity
+  })
+}

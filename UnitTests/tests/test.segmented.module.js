@@ -107,17 +107,17 @@ describe('lec.segmented', function() {
         expect(hash).toBe(expected);
 
         // clear the stack
-        draw.context().clean();
+        //draw.context().clean();
       });
     });
     describe('ring', function() {
       it('creates a segmented rings of with all possible sides', function() {
-        var expected = ['2a93ca88a3f064ba0a2ee1cfaceb393d', '0a4ff60bbb0c160875a7726f03c33a99', '23f6a26970a8dc12c9c258467e93d460',
-                        '02a26dfd4f275c0d44476065712b5a84', '9db7a96fa24284939704bce2a47d6e02', 'f36ef21c58e250925f56b473660cde3a',
-                        'd627c150ac75434ffa3776d3be9a59eb', '9fb1882044defa958ea2f970b4869fd2', '4a49fb4a182357122b864898031c9bc3',
-                        '9859c28c78e38047858505abb94e9cf2', '9eafa06641550554d1551481ab7cc894', '0bbcf9968efb47f3756827284f847d36',
-                        'e68e9c805843857b6e3a09f6d8517d98', 'b5e1ae59e496c0ea268626c39f4c6e26', '892c95e1502ebd7482441eb699539a08',
-                        '6189e942e9021c9bf70e4f58ff635326', 'efb31add36adf4341677adfdce479da9',
+        var expected = ['5b12dfcd88bdb39af77e33c222b3dda9', '9927b642578973229f1c48718bf849bd', '655092960edd34777e97819a981ad2cd',
+                        'cef5bc38ca131fb05e0471ee29a26aac', '892bd7e493a16e2a76753ce092f03ce9', '480535cbd978b99c095266304551d313',
+                        'c22e82b2a0c957a849c225d98effc50e', 'ab2ad1e652aa83a2d4ff6c47be063915', '8ac674d749a909c1aeaa6f833ae63a31',
+                        'ae072f4a346258467a3d4c50e16edf31', '49d074bdbd357440473694e6aa48403e', '994ec7df41f556bb616c3963220e7bf2',
+                        '642db12c5f24980cae53505bc30798c7', 'b03ddf83eb2ee052e820992bb3dba153', '29ecdff5bd421ab42e34d2fca5722a68',
+                        '50aafe9706d8df57c96a151a2eb3be8d', '9724d641def761b6abca178f23535ac9',
                         ];
         var json, hash;
         for (i = 0; i < constants.segments.length; i++) {
@@ -133,13 +133,13 @@ describe('lec.segmented', function() {
           expect(hash).toBe(expected[i]);
 
           // clear the stack
-          draw.context().clean();
+          //draw.context().clean();
         }
       });
     });
     describe('curve', function() {
       it('creates a circle', function() {
-        var expected = '00f624e6dff2bf91662a1f80f6981ad9';
+        var expected = '907c3893b2fe51685b91265bb6acffc1';
 
         draw.curve({x: 250, y: 250}, 100, 'red');
 
@@ -153,7 +153,7 @@ describe('lec.segmented', function() {
         expect(hash).toBe(expected);
 
         // clear the stack
-        draw.context().clean();
+        //draw.context().clean();
       });
     });
     describe('label', function() {
@@ -176,7 +176,7 @@ describe('lec.segmented', function() {
         expect(hash).toBe(expected);
 
         // clear the stack
-        draw.context().clean();
+        //draw.context().clean();
       });
     });
 /*
