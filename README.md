@@ -7,4 +7,4 @@ karma start
 
 # Screenshots
 
-![Decimal To Fractional Inches Calculator](https://dsnutter.github.io/screenshots/WdrkUtils-Calc-DecimalToFractional.png)
+![Decimal To Fractional Inches Calculator](https://dsnutter.github.io/assets/images/screenshots/WdrkUtils-Calc-DecimalToFractional.png)
